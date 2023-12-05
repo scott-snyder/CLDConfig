@@ -1,19 +1,15 @@
 {
   "version": 5,
-  "prev": "9d385be1a06ea98d3253340adc157ce3dae6481f",
-  "head": "648e2a17d052c71909986b11ce6666312c485edc",
+  "prev": "3304cf5712db6fbdac113094cffe3b3707de6fa0",
+  "head": "8cc723ab30815f7f7f59dff3af95146a0a6fa45f",
   "applied": [
-    "evtMax.CLDConfig",
-    "refresh-temp"
+    "evtMax.CLDConfig"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "evtMax.CLDConfig": {
-      "oid": "c206325663114c685a75215172bd68c695e83cab"
-    },
-    "refresh-temp": {
-      "oid": "648e2a17d052c71909986b11ce6666312c485edc"
+      "oid": "8cc723ab30815f7f7f59dff3af95146a0a6fa45f"
     }
   }
 }
