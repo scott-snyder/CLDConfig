@@ -182,6 +182,8 @@ OverlayParameters = {
         "LumiCalCollection", "380"
      ],
     "PhysicsBX": ["1"],
+    # Shift back start time to allow for vertex smearing.
+    "Start_Integration_Time" : ["-10.0"],
     "Poisson_random_NOverlay": ["false"],
     "RandomBx": ["false"],
     "TPCDriftvelocity": ["0.05"],
@@ -634,7 +636,8 @@ MyDDCaloDigiParameters = {
                                 "ECAL_strip_absorbtionLength": ["1e+06"],
                                 "UseEcalTiming": ["1"],
                                 "ECALCorrectTimesForPropagation": ["1"],
-                                "ECALTimeWindowMin": ["-1"],
+                                # Changed from -1 to -10 to allow for vtx smearing
+                                "ECALTimeWindowMin": ["-10"],
                                 "ECALSimpleTimingCut": ["true"],
                                 "ECALDeltaTimeHitResolution": ["10"],
                                 "ECALTimeResolution": ["10"],
@@ -665,7 +668,8 @@ MyDDCaloDigiParameters = {
                                 "HCAL_pixel_spread": ["0"],
                                 "UseHcalTiming": ["1"],
                                 "HCALCorrectTimesForPropagation": ["1"],
-                                "HCALTimeWindowMin": ["-1"],
+                                # Changed from -1 to -10 to allow for vtx smearing
+                                "HCALTimeWindowMin": ["-10"],
                                 "HCALSimpleTimingCut": ["true"],
                                 "HCALDeltaTimeHitResolution": ["10"],
                                 "HCALTimeResolution": ["10"],
