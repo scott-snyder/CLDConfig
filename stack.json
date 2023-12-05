@@ -1,9 +1,15 @@
 {
   "version": 5,
-  "prev": null,
-  "head": "a9c7ee5c82bf4df45355258eeb2d1d1598f595a0",
-  "applied": [],
+  "prev": "b045cf850ae59da318a89fa190604f0ffc0b808d",
+  "head": "c206325663114c685a75215172bd68c695e83cab",
+  "applied": [
+    "evtMax.CLDConfig"
+  ],
   "unapplied": [],
   "hidden": [],
-  "patches": {}
+  "patches": {
+    "evtMax.CLDConfig": {
+      "oid": "c206325663114c685a75215172bd68c695e83cab"
+    }
+  }
 }
