@@ -58,14 +58,17 @@ cellIDSvc.OutputLevel = INFO
 svcList.append(cellIDSvc)
 
 output_basename = "output"
+evtMax = 3
 
 from k4FWCore.parseArgs import parser
 parser.add_argument("--inputFiles", action="extend", nargs="+", metavar=("file1", "file2"), help="One or multiple input files")
 parser.add_argument("--outputBasename", help="Basename of the output file(s)", default=output_basename)
 parser.add_argument("--trackingOnly", action="store_true", help="Run only track reconstruction", default=False)
+parser.add_argument("--evtMax", help="Number of events to process", default=evtMax)
 my_opts = parser.parse_known_args()[0]
 
 output_basename = my_opts.outputBasename
+evtMax = my_opts.evtMax
 
 # Set input files here or via --inputFiles
 input_files = []
@@ -1193,7 +1196,7 @@ if CONFIG["OutputMode"] == "EDM4Hep":
 from Configurables import ApplicationMgr
 ApplicationMgr( TopAlg = algList,
                 EvtSel = 'NONE',
-                EvtMax = 3,
+                EvtMax = evtMax,
                 ExtSvc = svcList,
                 OutputLevel=WARNING
               )
