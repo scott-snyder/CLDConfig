@@ -1,14 +1,13 @@
 {
   "version": 5,
-  "prev": "c609ac73c4fb1bfb9d9fb18a5fba183f64e36a68",
-  "head": "c66025265078666405040a824fe646c35c25588a",
+  "prev": "9ab8f3a077f44925c5e0e027c71ece03a4c7f889",
+  "head": "bfea8bf5b674c8c96b8e7f845483c343e4c572ea",
   "applied": [
     "gitignore",
     "smear",
     "typo",
     "reco2",
-    "evtMaxNote",
-    "refresh-temp"
+    "evtMaxNote"
   ],
   "unapplied": [],
   "hidden": [],
@@ -17,19 +16,16 @@
       "oid": "53021374f4265e41d009bcfbf7be628e5e3abdc7"
     },
     "smear": {
-      "oid": "ebfed645bb953e9a4d9119518dde236dd95b62da"
+      "oid": "8733700556afd1812d6a851d9eb253fd92134d84"
     },
     "typo": {
-      "oid": "31bc7732823d5f8959de4d151fd72668256ef1d4"
+      "oid": "98a19c06feddd9539810b30509300e321e4fc5c7"
     },
     "reco2": {
-      "oid": "4585e82a41f9662c1a231124c4588342c834f525"
+      "oid": "04a4d378a692bcb4cd421fd73c43cc7cd5c7890e"
     },
     "evtMaxNote": {
-      "oid": "d0418cce23a915cbce41eb359f538c5acb2ebd6a"
-    },
-    "refresh-temp": {
-      "oid": "c66025265078666405040a824fe646c35c25588a"
+      "oid": "bfea8bf5b674c8c96b8e7f845483c343e4c572ea"
     }
   }
 }
