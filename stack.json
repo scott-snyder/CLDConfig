@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "852f55d95c99c3eb2fd63fd04273a954efcb893f",
-  "head": "536e81489265b56575ac0ac30d623f333d479bd8",
+  "prev": "a3a440487c88042d822b90cd53262efd0543c5d8",
+  "head": "90a66cc16f4f323f485532cd9f4ccaf35f04f55d",
   "applied": [
     "evtMax.CLDConfig",
-    "smear"
+    "smear",
+    "typo"
   ],
   "unapplied": [],
   "hidden": [],
@@ -14,6 +15,9 @@
     },
     "smear": {
       "oid": "536e81489265b56575ac0ac30d623f333d479bd8"
+    },
+    "typo": {
+      "oid": "90a66cc16f4f323f485532cd9f4ccaf35f04f55d"
     }
   }
 }

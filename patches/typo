@@ -1,0 +1,6 @@
+Bottom: 395a1d0e92e2828307a39b8e0425637acd62285a
+Top:    395a1d0e92e2828307a39b8e0425637acd62285a
+Author: scott snyder <snyder@bnl.gov>
+Date:   2023-12-17 16:22:39 -0500
+
+Fix typo in parameter name: LogWeigthConstant -> LogWeightConstant
