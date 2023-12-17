@@ -1,14 +1,13 @@
 {
   "version": 5,
-  "prev": "279e49c78afd43c391e72250c9f85bfdf419bacc",
-  "head": "345329608336bec4a6875ef1ca6d6c5b9c7ac763",
+  "prev": "bac98829763a92ab652deef1e03ba4d3ca199b21",
+  "head": "933410104e1ed7f0fb9093e759ab2e151403c46c",
   "applied": [
     "evtMax.CLDConfig",
     "smear",
     "typo",
     "reco2",
-    "gitignore",
-    "refresh-temp"
+    "gitignore"
   ],
   "unapplied": [],
   "hidden": [],
@@ -26,10 +25,7 @@
       "oid": "e3a8473ed3709c519191a6cffb57f03f823f7981"
     },
     "gitignore": {
-      "oid": "3d875fe7ca8b2ae7cdacba563b6e539ffedabf64"
-    },
-    "refresh-temp": {
-      "oid": "345329608336bec4a6875ef1ca6d6c5b9c7ac763"
+      "oid": "933410104e1ed7f0fb9093e759ab2e151403c46c"
     }
   }
 }
