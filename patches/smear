@@ -4,3 +4,8 @@ Author: scott snyder <snyder@bnl.gov>
 Date:   2023-12-04 22:07:43 -0500
 
 Adjustments to work with vertex smearing.
+
+For Overlay and DDCaloDigi, change the start of the time window to -10ns.
+Otherwise, if vertex smearing is enabled (with a width of 1.9ns), then
+the existing defaults (of -0.25 and -1 ns, respectively) will exclude
+a large fraction of hits.
