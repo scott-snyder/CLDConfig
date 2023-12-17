@@ -1,6 +1,0 @@
-Bottom: ad75d4c1efc449027bd3dd2368233b66c77ba3ff
-Top:    9642ec404ae6d25203885d2979610275a34eaeac
-Author: scott snyder <snyder@bnl.gov>
-Date:   2023-12-04 22:07:02 -0500
-
-Add an evtMax switch to CLDReconstruction.py.
