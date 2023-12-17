@@ -507,7 +507,7 @@ LumiCalReco.Parameters = {
                           "ClusterMinNumHits": ["15"],
                           "ElementsPercentInShowerPeakLayer": ["0.03"],
                           "EnergyCalibConst": ["0.01213"],
-                          "LogWeigthConstant": ["6.5"],
+                          "LogWeightConstant": ["6.5"],
                           "LumiCal_Clusters": ["LumiCalClusters"],
                           "LumiCal_Collection": ["LumiCalCollection"],
                           "LumiCal_RecoParticles": ["LumiCalRecoParticles"],
