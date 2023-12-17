@@ -1,31 +1,31 @@
 {
   "version": 5,
-  "prev": "bac98829763a92ab652deef1e03ba4d3ca199b21",
-  "head": "933410104e1ed7f0fb9093e759ab2e151403c46c",
+  "prev": "76b80f15ba3d9e7a85156f94d5061269ff37776b",
+  "head": "96b4d66ef0f095bdc84c5eca43b1a9f3778873e5",
   "applied": [
+    "gitignore",
     "evtMax.CLDConfig",
     "smear",
     "typo",
-    "reco2",
-    "gitignore"
+    "reco2"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "gitignore": {
+      "oid": "984eb6e864d1abd5eabf1e2e437307e3158cd287"
+    },
     "evtMax.CLDConfig": {
-      "oid": "8cc723ab30815f7f7f59dff3af95146a0a6fa45f"
+      "oid": "ac32f641c4d26836c126c9d4e3e3619d1daf1260"
     },
     "smear": {
-      "oid": "536e81489265b56575ac0ac30d623f333d479bd8"
+      "oid": "5a30a29ba7d0854c3fbc7a56d9f913753be47d23"
     },
     "typo": {
-      "oid": "14ab8693b25908b8fd0b24ccfbf87e579d79de47"
+      "oid": "0e9d361a6f3d01554d6358164f97e1b1432a0fe5"
     },
     "reco2": {
-      "oid": "e3a8473ed3709c519191a6cffb57f03f823f7981"
-    },
-    "gitignore": {
-      "oid": "933410104e1ed7f0fb9093e759ab2e151403c46c"
+      "oid": "96b4d66ef0f095bdc84c5eca43b1a9f3778873e5"
     }
   }
 }
