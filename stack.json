@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "3af077402983958d0802785dcf3f6565fbaf666c",
-  "head": "69e44d41f15c0f8a099b7fb99fd3dbfbe79546a2",
+  "prev": "bab732bcf677f54b1c93577cc6f1f77ba03103fb",
+  "head": "40a2cafcbdb661cf10affcbf930cc58382ee9d09",
   "applied": [
     "gitignore",
     "smear",
     "typo",
-    "reco2"
+    "reco2",
+    "evtMax"
   ],
   "unapplied": [],
   "hidden": [],
@@ -22,6 +23,9 @@
     },
     "reco2": {
       "oid": "69e44d41f15c0f8a099b7fb99fd3dbfbe79546a2"
+    },
+    "evtMax": {
+      "oid": "40a2cafcbdb661cf10affcbf930cc58382ee9d09"
     }
   }
 }
